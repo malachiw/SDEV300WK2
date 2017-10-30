@@ -1,0 +1,32 @@
+<!DOCTYPE css>
+* { 
+	box-sizing: border-box; 
+}
+
+.header {
+	background-color: black;
+	color: white;
+	font-size: 70px;
+	text-indent: 35px;
+	position:fixed;
+	height: 125px;
+	width: 100%
+}
+
+.box {
+	float: left;
+	width: 50%;
+}
+
+html {
+	font-family: 'Saira Semi Condensed', sans-serif;
+	background: url(images/layout/badwolf.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+body {
+}
+
+
