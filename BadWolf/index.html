@@ -8,11 +8,19 @@
   <link href="https://fonts.googleapis.com/css?family=Acme|Lato" rel="stylesheet">
  </head>
  <body>
- <div class="header">
-  <div class="box">
-   Bad Wolf Den
-  </div>
- </div>
-
+ <div class="navbar">
+  <a href="#home" font-family="Acme">Bad Wolf Den</a>
+  <a href="#news">News</a>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="myFunction()">Departments
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content" id="myDropdown">
+      <a href="#">Sonic Screwdrivers</a>
+      <a href="#">Timey Wimey Detector</a>
+      <a href="#">Davros</a>
+    </div>
+  </div> 
+</div>
  </body>
 </html>
