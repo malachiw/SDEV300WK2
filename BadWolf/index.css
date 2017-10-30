@@ -1,4 +1,6 @@
 <!DOCTYPE css>
+<!--index.css-->
+<!--Nov 5, 2017 -->
 * { 
 	box-sizing: border-box; 
 }
@@ -31,6 +33,7 @@
     color: white;
     padding: 14px 16px;
     background-color: inherit;
+    font-family: inherit;
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
@@ -64,7 +67,7 @@
 }
 
 .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    background-color: #00008b;
 }
 html {
 	background: url(images/layout/badwolf.jpg);
