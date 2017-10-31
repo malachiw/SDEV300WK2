@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-<!--timey.html-->
+<!--index.html-->
 <!--Nov 5, 2017 -->
-<html lang="en">
+<html lang ="en">
  <head>
   <meta charset="UTF-8"/>
-  <title>Timey Wimey</title>
+  <title>Bad Wolf Den</title>
   <link rel="stylesheet" href="index.css">
   <link href="https://fonts.googleapis.com/css?family=Acme|Lato" rel="stylesheet">
  </head>
-<body>
- <div class="navbar">
+ <body>
+  <div class="navbar">
    <a href="index.html">Bad Wolf Den</a>
    <a href="contact.html">Contact</a>
    <a href="https://twitter.com/hashtag/doctorwho">News</a>
@@ -23,19 +23,11 @@
      </div>
    </div> 
   </div>
-<h1>We love hearing from our customers anytime or from any 
- Dimension!<br>Please enter comments below!</h1>
-<form action="action_page.php" method="post">
-<textarea name="comments" id="comments" style="font-family: 'Acme'; sans-serif">
-Hey... say something!
-</textarea>
-  First name:<br>
-  <input type="text" name="firstName" value="Sarah Jane">
-  <br>
-  Last name:<br>
-  <input type="text" name="lastname" value="Smith">
-  <br><br>
-  <input type="submit" value="Submit">
-</form> 
- </body>
-</html>
+
+<body>
+
+Welcome <?php echo $_POST["firstname"];?><br>
+Your comment: <?php echo $_POST["comments"]; ?>
+
+</body>
+</html> 
