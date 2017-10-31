@@ -56,10 +56,12 @@
     text-decoration: none;
     display: block;
     text-align: left;
+    font-family: 'Lato', sans-serif;
 }
 
 .dropdown-content a:hover {
     background-color: #ddd;
+    
 }
 
 .dropdown:hover .dropdown-content {
@@ -75,7 +77,7 @@ html {
 	background-size: cover;
 }
 body {
-	font-family: 'Loto', sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 
 
