@@ -13,7 +13,7 @@
 
 .navbar a {
     float: left;
-    font-size: 16px;
+    font-size: 32px;
     color: white;
     text-align: center;
     padding: 14px 16px;
@@ -27,7 +27,7 @@
 
 .dropdown .dropbtn {
     cursor: pointer;
-    font-size: 16px;    
+    font-size: 32px;    
     border: none;
     outline: none;
     color: white;
@@ -37,7 +37,7 @@
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-    background-color: grey;
+    background-color: #00008b;
 }
 
 .dropdown-content {
@@ -66,9 +66,7 @@
     display: block;
 }
 
-.dropdown:hover .dropbtn {
-    background-color: #00008b;
-}
+
 html {
 	background: url(images/layout/badwolf.jpg);
 	-webkit-background-size: cover;
@@ -77,6 +75,7 @@ html {
 	background-size: cover;
 }
 body {
+	font-family: 'Loto', sans-serif;
 }
 
 
